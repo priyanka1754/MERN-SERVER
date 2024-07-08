@@ -33,6 +33,7 @@ async function startServer() {
     });
   }
 
+  console.log('hello')
 // beforeAll(async()=>{
 //     await startServer();
 // })
