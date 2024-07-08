@@ -31,7 +31,7 @@ async function startServer() {
         console.log(`Server live at http://localhost:${port}${server.graphqlPath}`);
       
     });
-}
+  }
 
 // beforeAll(async()=>{
 //     await startServer();
