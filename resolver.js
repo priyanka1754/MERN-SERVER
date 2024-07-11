@@ -5,9 +5,9 @@ const resolvers = {
         getUser: async (_, { id }) => {
             return await User.findById(id);
         },
-        getUsers: async () => {
-            return await User.find();
-        }
+       
+        getAllUsers:async()=>{return await User.find()}
+
     },
     Mutation: {
         createUser: async (_, { input }) => {
